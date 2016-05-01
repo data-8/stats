@@ -1,0 +1,5 @@
+sudo service apache2 reload
+sudo service grafana-server start
+sudo service apache2 restart
+sudo service carbon-cache start
+sudo service statsd start

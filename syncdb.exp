@@ -1,0 +1,23 @@
+#!/usr/bin/expect
+
+set timeout -1
+spawn sudo graphite-manage syncdb
+expect {
+    "Would you like to create one now" {
+            send "yes\r"
+            expect "Username"
+            send "admin\r"
+            expect "Email address"
+            send "test@gmail.com\r"
+            expect "Password"
+            send "admin\r"
+            expect "Password"
+            send "admin\r"
+            exp_continue
+     } "Migrated" {
+            expect eof
+     }
+}
+
+
+
