@@ -24,7 +24,7 @@ Installation
 
 Please refer to this [post](https://data8sp16.slack.com/files/ericz82/F0XJNKWBB/_Logging__Setup_Documentation) on Slack for detailed instructions.
 
-*TODO: Add pdf copy*
+[PDF copy](https://github.com/data-8/stats/raw/master/Data%208%20SP16_%20%5BLogging%5D%20Setup%20Documentation.pdf)
 
 ### Docker Installation
 
